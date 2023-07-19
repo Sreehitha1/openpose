@@ -25,7 +25,7 @@ if (${CMAKE_VERSION} VERSION_GREATER 3.9.0)
   # # else
   # set(AUTO_FOUND_CUDA FALSE)
 # Ubuntu 16 default
-elseif (${CMAKE_VERSION} VERSION_GREATER 3.0.0)
+elseif (${CMAKE_VERSION} VERSION_GREATER 3.5.0)
   cmake_policy(SET CMP0048 NEW)
   project(OpenPose VERSION ${OpenPose_VERSION})
 else (${CMAKE_VERSION} VERSION_GREATER 3.9.0)
